@@ -1,11 +1,11 @@
 package com.java.base_patterns.behaviorals_patterns.interpreter;
 
-public class FirstCheckingCondition implements Condition {
+public class FirstCheckingCondition implements FirstCondition {
 
-    private final Condition condition1;
-    private final Condition condition2;
+    private final FirstCondition condition1;
+    private final FirstCondition condition2;
 
-    public FirstCheckingCondition(Condition condition1, Condition condition2) {
+    public FirstCheckingCondition(FirstCondition condition1, FirstCondition condition2) {
         this.condition1 = condition1;
         this.condition2 = condition2;
     }

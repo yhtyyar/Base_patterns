@@ -1,6 +1,6 @@
 package com.java.base_patterns.behaviorals_patterns.interpreter;
 
-public class SecondCheckingCondition implements Condition{
+public class SecondCheckingCondition implements SecondCondition {
 
     @Override
     public boolean experience(String specialty, int year) {

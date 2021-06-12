@@ -1,6 +1,6 @@
 package com.java.base_patterns.behaviorals_patterns.interpreter;
 
-public class CertificateVerification implements  Condition{
+public class CertificateVerification implements FirstCondition {
 
     private final String certificate;
 
